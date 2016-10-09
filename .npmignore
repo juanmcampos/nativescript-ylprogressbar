@@ -1,0 +1,14 @@
+# generated files
+.vs
+.vs/
+demo/
+screenshots/
+.sln
+*.sln
+*.png
+CONTRIBUTING.md
+*.ts
+!ylprogress.d.ts
+*.map
+tsconfig.json
+*.log
