@@ -19,7 +19,8 @@ export class ProgressView extends ContentView {
         this._ios.progressTintColor = UIColor.colorWithRedGreenBlueAlpha(54 / 255, 217 / 255, 54 / 255, 1);
         this._ios.trackTintColor = UIColor.colorWithRedGreenBlueAlpha(215 / 255, 216 / 255, 220 / 255, 1);
 
-        this._ios.hideGloss = true;
+        this._ios.hideGloss = true;        
+        this._ios.cornerRadius = 2;
 
         this._ios.indicatorTextDisplayMode = YLProgressBarIndicatorTextDisplayModeTrack;
     }
@@ -35,5 +36,6 @@ export class ProgressView extends ContentView {
     set progreso(value: number) {
         this._ios.progress = value / 100;
     }
+    
 
 }
